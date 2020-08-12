@@ -1,0 +1,11 @@
+{
+  "type": "mysql",
+  "host": "marketplacedb.c3m7caziv10r.us-east-1.rds.amazonaws.com",
+  "port": 3306,
+  "username": "marketplace",
+  "password": "adminadmin",
+  "database": "marketplace_front",
+  "entities": ["entity/*.js"],
+  "logging": true,
+  "synchronize": false
+}
